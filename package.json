@@ -1,0 +1,27 @@
+{
+  "name": "uwp-keycodes",
+  "version": "1.0.0",
+  "description": "Enum for UWP keycodes",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WatchBeam/uwp-keycodes"
+  },
+  "keywords": [
+    "uwp",
+    "keycodes"
+  ],
+  "author": "Saadat Azim <saazim@microsoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WatchBeam/uwp-keycodes/issues"
+  },
+  "homepage": "https://github.com/WatchBeam/uwp-keycodes#readme",
+  "devDependencies": {
+    "typescript": "^2.2.1"
+  }
+}
