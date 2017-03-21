@@ -1,6 +1,6 @@
 {
   "name": "uwp-keycodes",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Enum for UWP keycodes",
   "main": "index.js",
   "scripts": {
