@@ -136,3 +136,68 @@ export const enum keys {
     GamepadRightThumbstickRight = 217,
     GamepadRightThumbstickLeft = 218,
 }
+
+
+export const enum CommonKeys {
+    Left,
+    Right,
+    Up,
+    Down,
+    Submit,
+    Back,
+    X,
+    Y,
+    TabLeft,
+    TabRight,
+    TabUp,
+    TabDown,
+    View,
+    Menu,
+};
+
+export const commonKeyMap: number[] = [];
+commonKeyMap[keys.LeftArrow] = CommonKeys.Left;
+commonKeyMap[keys.GamepadLeftThumbstickLeft] = CommonKeys.Left;
+commonKeyMap[keys.GamepadDPadLeft] = CommonKeys.Left;
+commonKeyMap[keys.NavigationLeft] = CommonKeys.Left;
+
+commonKeyMap[keys.RightArrow] = CommonKeys.Right;
+commonKeyMap[keys.GamepadLeftThumbstickRight] = CommonKeys.Right;
+commonKeyMap[keys.GamepadDPadRight] = CommonKeys.Right;
+commonKeyMap[keys.NavigationRight] = CommonKeys.Right;
+
+commonKeyMap[keys.UpArrow] = CommonKeys.Up;
+commonKeyMap[keys.GamepadLeftThumbstickUp] = CommonKeys.Up;
+commonKeyMap[keys.GamepadDPadUp] = CommonKeys.Up;
+commonKeyMap[keys.NavigationUp] = CommonKeys.Up;
+
+commonKeyMap[keys.DownArrow] = CommonKeys.Down;
+commonKeyMap[keys.GamepadLeftThumbstickDown] = CommonKeys.Down;
+commonKeyMap[keys.GamepadDPadDown] = CommonKeys.Down;
+commonKeyMap[keys.NavigationDown] = CommonKeys.Down;
+
+commonKeyMap[keys.Enter] = CommonKeys.Submit;
+commonKeyMap[keys.NavigationAccept] = CommonKeys.Submit;
+commonKeyMap[keys.GamepadA] = CommonKeys.Submit;
+
+commonKeyMap[keys.Escape] = CommonKeys.Back;
+commonKeyMap[keys.GamepadB] = CommonKeys.Back;
+
+commonKeyMap[keys.Numpad7] = CommonKeys.X;
+commonKeyMap[keys.GamepadX] = CommonKeys.X;
+commonKeyMap[keys.Numpad9] = CommonKeys.Y;
+commonKeyMap[keys.GamepadY] = CommonKeys.Y;
+
+commonKeyMap[keys.Numpad4] = CommonKeys.TabLeft;
+commonKeyMap[keys.GamepadLeftShoulder] = CommonKeys.TabLeft;
+commonKeyMap[keys.Numpad6] = CommonKeys.TabRight;
+commonKeyMap[keys.GamepadRightShoulder] = CommonKeys.TabRight;
+commonKeyMap[keys.Numpad8] = CommonKeys.TabUp;
+commonKeyMap[keys.GamepadLeftTrigger] = CommonKeys.TabUp;
+commonKeyMap[keys.Numpad2] = CommonKeys.TabDown;
+commonKeyMap[keys.GamepadRightTrigger] = CommonKeys.TabDown;
+
+commonKeyMap[keys.Divide] = CommonKeys.View;
+commonKeyMap[keys.GamepadView] = CommonKeys.View;
+commonKeyMap[keys.Multiply] = CommonKeys.Menu;
+commonKeyMap[keys.GamepadMenu] = CommonKeys.Menu;
