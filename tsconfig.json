@@ -8,7 +8,8 @@
         "lib": [
             "dom",
             "es6"
-        ]
+        ],
+        "preserveConstEnums": true
     },
     "exclude": [
         "node_modules"
